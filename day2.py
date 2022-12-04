@@ -28,8 +28,6 @@ def part2():
         "X": 1, "Y": 2, "Z": 3,
         "A": 1, "B": 2, "C": 3 
         }
-     
-    value = {"r": 1, "p": 2, "s": 3}
     totalScore = 0
     with open('input/02', 'r') as file:
         for line in file:
